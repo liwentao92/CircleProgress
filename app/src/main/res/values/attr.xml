@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources> 
+ 
+
+       <!-- 开关按钮属性 -->
+    <declare-styleable name="SwitchButton">
+        <attr name="bg_off" format="reference"></attr>  <!-- 关闭时的背景图片 -->
+        <attr name="bg_on" format="reference"></attr>   <!-- 打开时的背景图片 -->
+        <attr name="bg_button" format="reference"></attr>   <!-- 按钮图片 -->
+    </declare-styleable>
+    
+    <!-- 环形进度条按钮属性 -->
+    <declare-styleable name="CircleProgressBar">  
+        <attr name="max" format="integer"/>				<!-- 进度条最大值 -->
+        <attr name="fill" format="boolean"/>			<!-- 是否填充圆形区域 -->
+        <attr name="Paint_Width" format="integer"/>		<!-- 画笔宽度，填充模式下无效，会被重置为0 -->
+        <attr name="Paint_Color" format="integer"/>		<!-- 画笔颜色 -->
+        <attr name="Inside_Interval" format="integer"/> <!-- 圆形区域向里缩进的距离 --> 
+    </declare-styleable> 
+</resources> 
+
